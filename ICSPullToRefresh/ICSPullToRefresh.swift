@@ -272,7 +272,7 @@ open class PullToRefreshView: UIView {
     
     lazy var activityIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
-        activityIndicator.tintColor = UIColor.colorWithRedValue(253, greenValue: 120, blueValue: 81, alpha: 0.5)
+        activityIndicator.tintColor = UIColor(red: 253.0/255.0, green: 120.0/255.0, blue: 81.0/255.0, alpha: 0.5)
         activityIndicator.hidesWhenStopped = false
         return activityIndicator
     }()
