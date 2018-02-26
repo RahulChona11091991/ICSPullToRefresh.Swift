@@ -272,6 +272,7 @@ open class PullToRefreshView: UIView {
     
     lazy var activityIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+        activityIndicator.tintColor = ROConstants.color.themeRefreshControlOrangeColor
         activityIndicator.hidesWhenStopped = false
         return activityIndicator
     }()
